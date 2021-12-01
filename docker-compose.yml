@@ -2,6 +2,7 @@ version: "3.3"
    
 services:
   db:
+    container_name: db
     image: postgres:13.4
     environment:
       - POSTGRES_DB=postgres
